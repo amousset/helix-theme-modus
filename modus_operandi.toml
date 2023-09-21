@@ -2,20 +2,11 @@
 # Adapted from https://protesilaos.com/emacs/modus-themes, by Protesilaos Stavrou
 # Version 4.3.0
 #
-# Legibility, accessibility
-# Try to follow the style and principles, over 
 
-# WCAG AAA standard
-
-# TODO read https://protesilaos.com/emacs/modus-themes
-
-# comparer https://github.com/helix-editor/helix/blob/master/runtime/themes/varua.toml
-
-# couleur de line tinted vs. rouge added
-
-# TODO comprendre les curseurs
-
-# TODO comprendre la partie interface (/markup)
+# TODO: check tinted line line color vs. diff added red
+# TODO: cursors
+# TODO: UI (/markup)
+# TODO: removed unused colors from palette
 
 # Syntax highlighting
 # -------------------
@@ -29,7 +20,7 @@
 
 "string" = "blue-warmer"
 "string.regexp" = "zz"
-# TODO #fffff dans css
+# TODO, e.g. colors in css
 "string.special" = "zz"
 
 "comment" = "fg-dim"
@@ -109,8 +100,7 @@ punctuation = "fg-dim"
 # TODO change, difference between code and ui
 # crucial for legibility
 "ui.virtual.wrap" = "fg-dim"
-# TODO fleches des tab
-
+# TODO: tab arrow markers
 
 "ui.selection" = { fg = "fg-main", bg = "bg-active" }
 
@@ -141,6 +131,7 @@ punctuation = "fg-dim"
 error = "red"
 warning = "yellow-warmer"
 info = "cyan-cooler"
+# TODO: find appropriate color
 hint = "zz"
 
 [palette]
