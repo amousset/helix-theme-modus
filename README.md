@@ -27,6 +27,13 @@ The Helix context imposes several strict constraints:
   * The themes are very simple and cannot include logic
 * Terminal UI
   * Limits the typographic abilities
+  * Requires special effort to show the difference between code and UI
+
+* For floating windows, we need a clean separation with the background:
+  * For big centered windows we can keep the main bg
+  * For smaller windows (popups) we need a different background
+
+* Center on content, the interface should get out of the way
 
 ## Screenshots
 
