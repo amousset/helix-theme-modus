@@ -49,8 +49,8 @@
 # TODO: dim only in markup
 punctuation = "fg-dim"
 
-#"tag" = "zz"
-#"attribute" = "zz"
+"tag" = "magenta"
+"attribute" = "cyan-cooler"
 
 "namespace" = "blue-cooler"
 
@@ -115,16 +115,11 @@ punctuation = "fg-dim"
 "ui.text.focus" = { fg = "fg-main", bg = "bg-completion", modifiers = ["bold"] }
 "ui.text.inactive" = { fg = "fg-dim" }
 
-"ui.virtual" = "zz"
+# non-upstream, very light and not legible, but kind of required
+"ui.virtual" = "bg-active"
 "ui.virtual.ruler" = { bg = "bg-dim" }
-
-"ui.virtual.indent-guide" = "zz"
 # non-upstream
 "ui.virtual.inlay-hint" = { fg = "fg-dim", modifiers = ["italic"] }
-# TODO change, difference between code and ui
-# crucial for legibility
-"ui.virtual.wrap" = "fg-dim"
-# TODO: tab arrow markers
 
 "ui.selection" = { fg = "fg-main", bg = "bg-active" }
 
@@ -133,8 +128,8 @@ punctuation = "fg-dim"
 "ui.cursor.match" = { bg = "bg-paren-match" }
 
 "ui.cursor.primary.normal" = { fg = "bg-main", bg = "fg-main" }
-"ui.cursor.primary.insert" = { fg = "red", bg = "" }
-"ui.cursor.primary.select" = { fg = "", bg = "" }
+"ui.cursor.primary.insert" = { fg = "red", bg = "zz" }
+"ui.cursor.primary.select" = { fg = "zz", bg = "zz" }
 
 #"ui.cursor.normal" = { fg = "base", bg = "secondary_cursor_normal" }
 #"ui.cursor.insert" = { fg = "base", bg = "secondary_cursor_insert" }
