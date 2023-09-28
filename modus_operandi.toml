@@ -11,8 +11,6 @@
 # TODO: comment unused colors in palette
 # TODO: check different highlight types
 
-# TODO: markup checked/unchecked https://github.com/helix-editor/helix/pull/6434/files
-
 # TODO: hover color??
 
 # TODO: compare with similar nvim themes
@@ -64,6 +62,9 @@ punctuation = "fg-dim"
 "markup.heading.5" = { fg = "green-faint", modifiers = ["bold"] }
 "markup.heading.6" = { fg = "red-faint", modifiers = ["bold"] }
 "markup.list" = "fg-dim"
+
+"markup.list.checked" = { fg = "yellow-warmer" }
+"markup.list.unchecked" = { fg = "yellow-warmer" }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
@@ -163,7 +164,7 @@ yy = "#00ff00"
 
 # Basic values
 bg-main = "#ffffff"
-bg-dim = "#f0f0f0"
+bg-dim = "#f2f2f2"
 fg-main = "#000000"
 fg-dim = "#595959"
 fg-alt = "#193668"
@@ -236,11 +237,9 @@ bg-cyan-nuanced = "#ebf6fa"
 
 # Special purpose
 bg-completion = "#c0deff"
-bg-hover = "#94d4ff"
+bg-hover = "#b2e4dc"
 bg-hover-secondary = "#f5d0a0"
 bg-hl-line = "#dae5ec"
-bg-paren-match = "#5fcfff"
-bg-paren-expression = "#efd3f5"
 bg-region = "#bcbcbc"
 bg-region-subtle = "#f0e0cc"
 
@@ -267,20 +266,25 @@ bg-tab-other = "#c2c2c2"
 bg-added = "#c1f2d1"
 bg-added-faint = "#d8f8e1"
 bg-added-refine = "#aee5be"
-bg-added-intense = "#8cca8c"
+bg-added-fringe = "#6cc06c"
 fg-added = "#005000"
 fg-added-intense = "#006700"
 
 bg-changed = "#ffdfa9"
 bg-changed-faint = "#ffefbf"
 bg-changed-refine = "#fac090"
-bg-changed-intense = "#d7c20a"
+bg-changed-fringe = "#d7c20a"
 fg-changed = "#553d00"
 fg-changed-intense = "#655000"
 
 bg-removed = "#ffd8d5"
 bg-removed-faint = "#ffe9e9"
 bg-removed-refine = "#f3b5af"
-bg-removed-intense = "#d84a4f"
+bg-removed-fringe = "#d84a4f"
 fg-removed = "#8f1313"
 fg-removed-intense = "#aa2222"
+
+# Paren match
+
+bg-paren-match = "#5fcfff"
+bg-paren-expression = "#efd3f5"
