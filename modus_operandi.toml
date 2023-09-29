@@ -68,7 +68,7 @@ punctuation = "fg-dim"
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
 "markup.strikethrough" = { modifiers = ["crossed_out"] }
-"markup.link.url" = { fg = "fg-alt" }
+"markup.link.url" = { fg = "cyan" }
 "markup.link.text" = { fg = "blue-warmer", modifiers = ["underlined"] }
 "markup.raw.block" = { bg = "bg-dim" }
 "markup.raw.inline" = { fg = "green-cooler" }
@@ -151,6 +151,7 @@ punctuation = "fg-dim"
 "diagnostic.info" = { underline = { color = "cyan-intense", style = "curl" } }
 "diagnostic.hint" = { underline = { color = "zz", style = "curl" } }
 
+# FIXME check and variants
 error = "red"
 warning = "yellow-warmer"
 info = "cyan-cooler"
